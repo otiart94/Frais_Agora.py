@@ -194,7 +194,7 @@ if "authentifie" not in st.session_state:
   st.session_state["user_nom_complet"] = ""
 
 if not st.session_state["authentifie"]:
-  st.title("🔐 Connexion à Frais_fabrix")
+  st.title("🔐 Connexion à note de Frais_Agora")
   with st.form("form_login"):
     username_input = st.text_input("Identifiant (Sabrina ou Alain)")
     password_input = st.text_input("Mot de passe", type="password")
