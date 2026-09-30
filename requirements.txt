@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+Pillow
+google-genai
+pillow-heif
